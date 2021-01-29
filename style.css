@@ -1,0 +1,115 @@
+body{
+    padding: 0;
+    margin: 0 ;
+}
+
+.container{
+    max-width: 1140px;
+    padding: 0;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0,.9);
+}
+
+
+.title{
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+.title h1{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+#portfolio{
+    display: flex;
+}
+.my-info{
+    min-width: 60%;
+    padding-left: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* personal information */
+.personal-info{
+    padding: 10px; 
+}
+
+.info-title{
+    margin: 0 !important;
+    padding: 10px 0 5px 0!important;
+}
+.info-details{
+    margin: 0 !important;
+    padding: 0!important;
+}
+.image img{
+    
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+/* Hobbies */
+.Hobbies{
+    padding: 10px;
+}
+.hobby{
+    list-style: none;
+    text-decoration: none;
+}
+.quote-1 h2{
+    color: green;
+}
+.quote-1 p{
+    margin: 10px 0 5px 0;
+}
+.quote-2 h2{
+    color: Blue;
+}
+.quote-2 p{
+    margin: 10px 0 5px 0;
+}
+
+/* List */
+.fav-player{
+      padding: 10px;
+      display: flex;
+}
+.fav-link{
+    padding: 20px;
+    color: white;
+}
+.player-image img{
+    max-width: 200px;
+    padding: 50px 0 20px 20px;
+}
+.list-item{
+  list-style: none;  
+  padding: 5px 0; 
+}
+.list-item a{
+   font-weight: 900;
+    text-decoration: none;
+    color: white;
+
+}
+
+/* table */
+table, th, td {
+  border: 1px solid red;
+  border-collapse: collapse;
+  
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+th, td {
+  padding: 5px;
+  text-align: center;    
+}
+
+footer{
+    color: white;
+    padding: 5px 0;
+}
